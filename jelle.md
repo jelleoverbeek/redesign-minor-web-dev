@@ -171,7 +171,7 @@ The header shows the code that is used to build up some parts of the header. Eve
 
 ## Program page
 
-I worked a lot on the program page together with Jamal. We learned it was one of the most important pages of the website when testing with Marie. The first version we showed her wasn't very nice. The hierarchy was bad and the connections of the weeks and courses weren't that clear. The next version we showed Marie was a lot better, according to her.
+I worked a lot on the program page together with Jamal. We learned it was one of the most important pages of the website when testing with Marie. The first version we showed her wasn't very nice. The hierarchy was bad and the connections of the weeks and courses weren't that clear. The next version we showed Marie was a lot better, according to her. I learned a lot about `display: grid` when building this page. It was a hard page to build.
 
 ![timeline-old](https://d.pr/i/iBrqdX+)
 
