@@ -170,7 +170,7 @@ I worked a lot on the program page together with Jamal. We learned it was one of
 
 ![timeline-old](https://d.pr/i/iBrqdX+)
 
-![final result](https://d.pr/i/Dqdh9M+)
+![final result](https://d.pr/i/bDdhnG+)
 
 ## Video player
 
