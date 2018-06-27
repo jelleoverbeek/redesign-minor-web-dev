@@ -117,6 +117,11 @@ As build tool we chose to use Gulp. Gulp was pretty easy to understand for us an
   });
   ```
 
+#### The audit
+
+It turned out the site performed very well. I didn't include any critical CSS because of our animated header. When you see it you will understand why.
+![perfomance audit](https://d.pr/i/Kdxd8B+)
+
 ### Web app from scratch
 
 Another thing I wanted to improve was the skill of building modular JavaScript. I did this using the export method of Browserify and combining it with a class. It was the first time I used classes and it is pretty cool. This way I could easily make multiple `presentation` or `subtitle` components without repeating the code.
