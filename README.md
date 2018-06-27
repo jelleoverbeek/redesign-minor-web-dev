@@ -1,5 +1,7 @@
 # Website redesign for the minor Web Development
 
+## You can find my [personal readme here](https://github.com/jelleoverbeek/redesign-minor-web-dev/blob/develop/jelle.md) and my [personal process here](https://github.com/jelleoverbeek/redesign-minor-web-dev/blob/develop/docs/process/jelle.md).
+
 During this project we redesigned the website for the minor 'web development' at the University of Applied sciences in Amsterdam. We have done our best to make a very experimental yet pleasurable web site.
 
 A big theme in this project was 'accessibility'. The site should be pleasurable for everyone, not just for the 'general public'.

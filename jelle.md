@@ -30,7 +30,7 @@ As build tool we chose to use Gulp. Gulp was pretty easy to understand for us an
   ```
 
 - **Minfiy**
-  Minifying is also done using Gulp. Both the CSS and the JS is being minified in two seperate tasks:
+  Minifying is also done using Gulp. Both the CSS and the JS is being minified in two separate tasks:
 
   ```Javascript
   gulp.task("js:minify", () => {
@@ -100,7 +100,7 @@ As build tool we chose to use Gulp. Gulp was pretty easy to understand for us an
   ```
 
 * **Loading using JSON files**
-  Another thing I tried was to load the content of the pages directly from the JSON files. I didn't know if it would be faster to load it into memory first and then pass it to the Nunjucks rendering engine or to conver te JSON directly. After testing it turned out to not make a diffrence so I loaded it directly from the JSON files.
+  Another thing I tried was to load the content of the pages directly from the JSON files. I didn't know if it would be faster to load it into memory first and then pass it to the Nunjucks rendering engine or to convert te JSON directly. After testing it turned out to not make a difference so I loaded it directly from the JSON files.
 
   ```javascript
   const fs = require("fs");
@@ -119,7 +119,7 @@ As build tool we chose to use Gulp. Gulp was pretty easy to understand for us an
 
 ### Web app from scratch
 
-Another thing I wanted to improve was the skill of building modular JavaScript. I did this using the export method of Browserify and combining it with a class. It was the first time I used classes and it is pretty cool. This way I could easiliy make multiple `presentation` or `subtitle` components without repeating the code.
+Another thing I wanted to improve was the skill of building modular JavaScript. I did this using the export method of Browserify and combining it with a class. It was the first time I used classes and it is pretty cool. This way I could easily make multiple `presentation` or `subtitle` components without repeating the code.
 
 ```javascript
 // subtitle.js
@@ -154,7 +154,7 @@ const fpPresentation = new Presentation(
 );
 ```
 
-A thing I still want to add to make the components less depending on each other is to add custom event listeners. Sadly I didn't have enough time to try these out. I learned alot while making `presentation.js` and `subtitles.js`. More of that later.
+A thing I still want to add to make the components less depending on each other is to add custom event listeners. Sadly I didn't have enough time to try these out. I learned a lot while making `presentation.js` and `subtitles.js`. More of that later.
 
 ### More out of the box design
 
@@ -174,9 +174,9 @@ I worked a lot on the program page together with Jamal. We learned it was one of
 
 ## Video player
 
-For deaf people it is hard to follow lectures. They have to focus on the speaker, the interpreter and the slides at the same time. As we are making a website for a minor lectures are part of it. To make it easier for deaf people to follow the lectures I made a video player focused on improving this experience. We tested the video player with Marie, a deaf graphic designer. She gave us a lot of interesting feedback. With this feedback we improved the video player to it's current form.
+For deaf people it is hard to follow lectures. They have to focus on the speaker, the interpreter and the slides at the same time. As we are making a website for a minor lectures are part of it. To make it easier for deaf people to follow the lectures I made a video player focused on improving this experience. We tested the video player with Marie, a deaf graphic designer. She gave us a lot of interesting feedback. With this feedback we improved the video player to it's current form. A cool thing fo it is that the server reads SRT files that is as common format for subtitles.
 
-**The video player contains the following features:**
+**The [video player](https://redesign-minor.kager.io/program/weekly-nerd/vitaly-friedman) contains the following features:**
 
 - Synced split screen view of the lecture and the slides
 - Subtitles (loaded as SRT format).
@@ -185,9 +185,7 @@ For deaf people it is hard to follow lectures. They have to focus on the speaker
 - The possibility to slowdown or speed up the lecture.
 - The video player can be controlled using the keyboard.
 
-https://d.pr/i/tQJ6Uu
-
-![Screenshot of the video player](https://d.pr/i/a60Yl6+)
+![Screenshot of the video player](https://d.pr/i/tQJ6Uu+)
 
 So I did build this component using clean and efficient JavaScript. I broke up the functionality in as many functions as possible to improve reuse of them. You can find these files here:
 
